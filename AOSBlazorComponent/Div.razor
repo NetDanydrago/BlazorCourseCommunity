@@ -1,0 +1,33 @@
+﻿<div class="@ClassName" data-blazor-duration="@BlazorDurationAOS" data-blazor-easing="@BlazorEasingAOS" data-blazor-delay="@BlazorDelayAOS" data-blazor="@BlazorAOS" blazoranimate="@AosAnimate">
+    @ChildContent
+</div>
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    [Parameter]
+    public string ClassName { get; set; }
+    [Parameter]
+    public string BlazorAOS { get; set; }
+    [Parameter]
+    public string BlazorDelayAOS { get; set; }
+    [Parameter]
+    public string BlazorDurationAOS { get; set; }
+    [Parameter]
+    public string BlazorEasingAOS { get; set; }
+    [Parameter]
+    public bool Animate { get; set; }
+
+    string AosAnimate;
+
+
+    protected async override Task OnParametersSetAsync()
+    {
+        AosAnimate = null;
+        if (Animate)
+        {
+            await Task.Delay(100);
+            AosAnimate = "aos-animate";
+        }
+    }
+
+}

@@ -1,0 +1,275 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loading-dot {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+    position: fixed;
+    padding-top: 10%;
+    background: #F2F2F2;
+}
+    .loading-dot img {
+        width: 600px;
+        height: 600px;
+        animation: Rotate 10s linear infinite;
+    }
+
+@keyframes Rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.nav-blazor{
+    background: rgb(173,37,37);
+    overflow:hidden;
+    color:white;
+}
+
+.nav-blazor .nav-hover:hover {
+    color: #fff !important;
+    background-color: #c82a2a !important
+}
+
+.nav-blazor p{
+  margin:0px;
+}
+
+.nav-blazorm {
+    background: rgb(173,37,37);
+}
+
+    .nav-blazorm .nav-hover:hover {
+        color: #fff !important;
+        background-color: #c82a2a !important
+    }
+
+#logo {
+    width: 12%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.title {
+    color: black;
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.title-audience {
+    color: black;
+    font-size: 2rem;
+}
+
+.subtitle-span {
+    color: rgb(197,21,21);
+    font-size: 3rem;
+}
+
+.subtitle {
+    color: rgb(197,21,21);
+    font-size: 2rem;
+}
+
+
+#home, #modality, #resources, #audience {
+    margin-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 20px;  
+}
+#home {
+    padding-top: 13%;
+}
+.home-section {
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+#modality {
+    padding-top: 13%;
+    padding-bottom: 9%;
+}
+#audience {
+    padding-top: 13%;
+    padding-bottom: 9%;
+}
+#resources {
+    padding-top: 14%;
+    padding-bottom: 9%;
+}
+
+
+
+
+#modality .title-span {
+    color: #831a24;
+    font-size: 3rem;
+}
+
+#resources .title-span {
+    color: #831a24;
+    font-size: 3rem;
+}
+
+#audience .title-span {
+    color: #831a24;
+    font-size: 3rem;
+}
+
+.home-text {
+    font-size: 20px;
+    text-align: justify;
+}
+.modality-text {
+    font-size: 20px;
+    text-align: justify;
+}
+.audience-text {
+    font-size: 20px;
+    text-align: justify;
+}
+.resource-text {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#home .row, #modality {
+    min-height: 550px;
+}
+
+#resources {
+    min-height: 200px;
+}
+
+.footer {
+    background: rgb(173,37,37);
+    height: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+@keyframes Rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+
+.RobotNet{
+   max-height:100%;
+   width:85%;
+   height:85%;
+   padding-top:5%;
+}
+.PeopleLaptot {
+    max-height: 100%;
+    padding-top: 5%;
+    width: 65%;
+    height: 65%;
+    margin-left:10%;
+}
+
+.img-video {
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.img-resource{
+    max-height:100%;
+    width:100%;
+    height:100%;
+    padding-top:5%;
+}
+
+#ImgHome {
+    width: 90%;
+    height: 90%;
+    padding-left: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+    .loading-dot {
+        padding-top: 35%;
+    }
+    .loading-dot img {
+        width: 350px;
+        height: 350px;
+    }
+    .title {
+        color: black;
+        font-size: 2rem;
+        display: inline-block;
+    }
+
+    .subtitle-span {
+        font-size: 2.5rem;
+    }
+        .title span {
+            color: #831a24;
+            font-size: 3rem;
+        }
+
+    .RobotNet {
+        width: 78%;
+        height: 78%;
+        margin-top: 0px;
+        padding-bottom: 30px;
+        margin-left:0px;
+        padding-left:20%;
+    }
+    .PeopleLaptot {
+        padding-top: 30px;
+        width: 78%;
+        height: 78%;
+        margin-left: 0px;
+        padding-left: 29%;
+    } 
+    .img-resource {
+        max-height: 100%;
+        width: 10%;
+        height: 10%;
+        padding-top: 5%;
+        margin-left: 47%;
+    }
+
+    .img-video {
+        max-height: 100%;
+        width: 90%;
+        height: 90%;
+        padding-left:14%;
+    }
+    #ImgHome {
+        width: 80%;
+        height: 80%;
+        margin-top: 0px;
+        padding-left: 22%;
+        padding-bottom: 30px;
+    }
+}

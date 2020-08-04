@@ -1,0 +1,727 @@
+﻿[data-blazor][data-blazor-duration="50"] {
+    transition-duration: 50ms;
+}
+
+    [data-blazor][data-blazor-duration="50"][blazoranimate=aos-animate] {
+        transition-duration: 50ms;
+    }
+
+[data-blazor][data-blazor-duration="100"] {
+    transition-duration: 100ms;
+}
+
+    [data-blazor][data-blazor-duration="100"][blazoranimate=aos-animate] {
+        transition-duration: 100ms;
+    }
+
+[data-blazor][data-blazor-duration="150"] {
+    transition-duration: 150ms;
+}
+
+    [data-blazor][data-blazor-duration="150"][blazoranimate=aos-animate] {
+        transition-duration: 150ms;
+    }
+
+[data-blazor][data-blazor-duration="200"] {
+    transition-duration: 200ms;
+}
+
+    [data-blazor][data-blazor-duration="200"][blazoranimate=aos-animate] {
+        transition-duration: 200ms;
+    }
+
+[data-blazor][data-blazor-duration="250"] {
+    transition-duration: 250ms;
+}
+
+    [data-blazor][data-blazor-duration="250"][blazoranimate=aos-animate] {
+        transition-duration: 250ms;
+    }
+
+[data-blazor][data-blazor-duration="300"] {
+    transition-duration: 300ms;
+}
+
+    [data-blazor][data-blazor-duration="300"][blazoranimate=aos-animate] {
+        transition-duration: 300ms;
+    }
+
+[data-blazor][data-blazor-duration="350"] {
+    transition-duration: 350ms;
+}
+
+    [data-blazor][data-blazor-duration="350"][blazoranimate=aos-animate] {
+        transition-duration: 350ms;
+    }
+
+[data-blazor][data-blazor-duration="400"] {
+    transition-duration: 400ms;
+}
+
+    [data-blazor][data-blazor-duration="400"][blazoranimate=aos-animate] {
+        transition-duration: 400ms;
+    }
+
+[data-blazor][data-blazor-duration="450"] {
+    transition-duration: 450ms;
+}
+
+    [data-blazor][data-blazor-duration="450"][blazoranimate=aos-animate] {
+        transition-duration: 450ms;
+    }
+
+[data-blazor][data-blazor-duration="500"] {
+    transition-duration: 500ms;
+}
+
+    [data-blazor][data-blazor-duration="500"][blazoranimate=aos-animate] {
+        transition-duration: 500ms;
+    }
+
+[data-blazor][data-blazor-duration="550"] {
+    transition-duration: 550ms;
+}
+
+    [data-blazor][data-blazor-duration="550"][blazoranimate=aos-animate] {
+        transition-duration: 550ms;
+    }
+
+[data-blazor][data-blazor-duration="600"] {
+    transition-duration: 600ms;
+}
+
+    [data-blazor][data-blazor-duration="600"][blazoranimate=aos-animate] {
+        transition-duration: 600ms;
+    }
+
+[data-blazor][data-blazor-duration="650"] {
+    transition-duration: 650ms;
+}
+
+    [data-blazor][data-blazor-duration="650"][blazoranimate=aos-animate] {
+        transition-duration: 650ms;
+    }
+
+[data-blazor][data-blazor-duration="700"] {
+    transition-duration: 700ms;
+}
+
+    [data-blazor][data-blazor-duration="700"][blazoranimate=aos-animate] {
+        transition-duration: 700ms;
+    }
+
+[data-blazor][data-blazor-duration="750"] {
+    transition-duration: 750ms;
+}
+
+    [data-blazor][data-blazor-duration="750"][blazoranimate=aos-animate] {
+        transition-duration: 750ms;
+    }
+
+[data-blazor][data-blazor-duration="800"] {
+    transition-duration: 800ms;
+}
+
+    [data-blazor][data-blazor-duration="800"][blazoranimate=aos-animate] {
+        transition-duration: 800ms;
+    }
+
+[data-blazor][data-blazor-duration="850"] {
+    transition-duration: 850ms;
+}
+
+    [data-blazor][data-blazor-duration="850"][blazoranimate=aos-animate] {
+        transition-duration: 850ms;
+    }
+
+[data-blazor][data-blazor-duration="900"] {
+    transition-duration: 900ms;
+}
+
+    [data-blazor][data-blazor-duration="900"][blazoranimate=aos-animate] {
+        transition-duration: 900ms;
+    }
+
+[data-blazor][data-blazor-duration="950"] {
+    transition-duration: 950ms;
+}
+
+    [data-blazor][data-blazor-duration="950"][blazoranimate=aos-animate] {
+        transition-duration: 950ms;
+    }
+
+[data-blazor][data-blazor-duration="1000"] {
+    transition-duration: 1000ms;
+}
+
+    [data-blazor][data-blazor-duration="1000"][blazoranimate=aos-animate] {
+        transition-duration: 1000ms;
+    }
+
+[data-blazor][data-blazor-duration="1050"] {
+    transition-duration: 1050ms;
+}
+
+    [data-blazor][data-blazor-duration="1050"][blazoranimate=aos-animate] {
+        transition-duration: 1050ms;
+    }
+
+[data-blazor][data-blazor-duration="1100"] {
+    transition-duration: 1100ms;
+}
+
+    [data-blazor][data-blazor-duration="1100"][blazoranimate=aos-animate] {
+        transition-duration: 1100ms;
+    }
+
+[data-blazor][data-blazor-duration="1150"] {
+    transition-duration: 1150ms;
+}
+
+    [data-blazor][data-blazor-duration="1150"][blazoranimate=aos-animate] {
+        transition-duration: 1150ms;
+    }
+
+[data-blazor][data-blazor-duration="1200"] {
+    transition-duration: 1200ms;
+}
+
+    [data-blazor][data-blazor-duration="1200"][blazoranimate=aos-animate] {
+        transition-duration: 1200ms;
+    }
+
+[data-blazor][data-blazor-duration="1250"] {
+    transition-duration: 1250ms;
+}
+
+    [data-blazor][data-blazor-duration="1250"][blazoranimate=aos-animate] {
+        transition-duration: 1250ms;
+    }
+
+[data-blazor][data-blazor-duration="1300"] {
+    transition-duration: 1300ms;
+}
+
+    [data-blazor][data-blazor-duration="1300"][blazoranimate=aos-animate] {
+        transition-duration: 1300ms;
+    }
+
+[data-blazor][data-blazor-duration="1350"] {
+    transition-duration: 1350ms;
+}
+
+    [data-blazor][data-blazor-duration="1350"][blazoranimate=aos-animate] {
+        transition-duration: 1350ms;
+    }
+
+[data-blazor][data-blazor-duration="1400"] {
+    transition-duration: 1400ms;
+}
+
+    [data-blazor][data-blazor-duration="1400"][blazoranimate=aos-animate] {
+        transition-duration: 1400ms;
+    }
+
+[data-blazor][data-blazor-duration="1450"] {
+    transition-duration: 1450ms;
+}
+
+    [data-blazor][data-blazor-duration="1450"][blazoranimate=aos-animate] {
+        transition-duration: 1450ms;
+    }
+
+[data-blazor][data-blazor-duration="1500"] {
+    transition-duration: 1500ms;
+}
+
+    [data-blazor][data-blazor-duration="1500"][blazoranimate=aos-animate] {
+        transition-duration: 1500ms;
+    }
+
+[data-blazor][data-blazor-duration="1550"] {
+    transition-duration: 1550ms;
+}
+
+    [data-blazor][data-blazor-duration="1550"][blazoranimate=aos-animate] {
+        transition-duration: 1550ms;
+    }
+
+[data-blazor][data-blazor-duration="1600"] {
+    transition-duration: 1600ms;
+}
+
+    [data-blazor][data-blazor-duration="1600"][blazoranimate=aos-animate] {
+        transition-duration: 1600ms;
+    }
+
+[data-blazor][data-blazor-duration="1650"] {
+    transition-duration: 1650ms;
+}
+
+    [data-blazor][data-blazor-duration="1650"][blazoranimate=aos-animate] {
+        transition-duration: 1650ms;
+    }
+
+[data-blazor][data-blazor-duration="1700"] {
+    transition-duration: 1700ms;
+}
+
+    [data-blazor][data-blazor-duration="1700"][blazoranimate=aos-animate] {
+        transition-duration: 1700ms;
+    }
+
+[data-blazor][data-blazor-duration="1750"] {
+    transition-duration: 1750ms;
+}
+
+    [data-blazor][data-blazor-duration="1750"][blazoranimate=aos-animate] {
+        transition-duration: 1750ms;
+    }
+
+[data-blazor][data-blazor-duration="1800"] {
+    transition-duration: 1800ms;
+}
+
+    [data-blazor][data-blazor-duration="1800"][blazoranimate=aos-animate] {
+        transition-duration: 1800ms;
+    }
+
+[data-blazor][data-blazor-duration="1850"] {
+    transition-duration: 1850ms;
+}
+
+    [data-blazor][data-blazor-duration="1850"][blazoranimate=aos-animate] {
+        transition-duration: 1850ms;
+    }
+
+[data-blazor][data-blazor-duration="1900"] {
+    transition-duration: 1900ms;
+}
+
+    [data-blazor][data-blazor-duration="1900"][blazoranimate=aos-animate] {
+        transition-duration: 1900ms;
+    }
+
+[data-blazor][data-blazor-duration="1950"] {
+    transition-duration: 1950ms;
+}
+
+    [data-blazor][data-blazor-duration="1950"][blazoranimate=aos-animate] {
+        transition-duration: 1950ms;
+    }
+
+[data-blazor][data-blazor-duration="2000"] {
+    transition-duration: 2000ms;
+}
+
+    [data-blazor][data-blazor-duration="2000"][blazoranimate=aos-animate] {
+        transition-duration: 2000ms;
+    }
+
+[data-blazor][data-blazor-duration="2050"] {
+    transition-duration: 2050ms;
+}
+
+    [data-blazor][data-blazor-duration="2050"][blazoranimate=aos-animate] {
+        transition-duration: 2050ms;
+    }
+
+[data-blazor][data-blazor-duration="2100"] {
+    transition-duration: 2100ms;
+}
+
+    [data-blazor][data-blazor-duration="2100"][blazoranimate=aos-animate] {
+        transition-duration: 2100ms;
+    }
+
+[data-blazor][data-blazor-duration="2150"] {
+    transition-duration: 2150ms;
+}
+
+    [data-blazor][data-blazor-duration="2150"][blazoranimate=aos-animate] {
+        transition-duration: 2150ms;
+    }
+
+[data-blazor][data-blazor-duration="2200"] {
+    transition-duration: 2200ms;
+}
+
+    [data-blazor][data-blazor-duration="2200"][blazoranimate=aos-animate] {
+        transition-duration: 2200ms;
+    }
+
+[data-blazor][data-blazor-duration="2250"] {
+    transition-duration: 2250ms;
+}
+
+    [data-blazor][data-blazor-duration="2250"][blazoranimate=aos-animate] {
+        transition-duration: 2250ms;
+    }
+
+[data-blazor][data-blazor-duration="2300"] {
+    transition-duration: 2300ms;
+}
+
+    [data-blazor][data-blazor-duration="2300"][blazoranimate=aos-animate] {
+        transition-duration: 2300ms;
+    }
+
+[data-blazor][data-blazor-duration="2350"] {
+    transition-duration: 2350ms;
+}
+
+    [data-blazor][data-blazor-duration="2350"][blazoranimate=aos-animate] {
+        transition-duration: 2350ms;
+    }
+
+[data-blazor][data-blazor-duration="2400"] {
+    transition-duration: 2400ms;
+}
+
+    [data-blazor][data-blazor-duration="2400"][blazoranimate=aos-animate] {
+        transition-duration: 2400ms;
+    }
+
+[data-blazor][data-blazor-duration="2450"] {
+    transition-duration: 2450ms;
+}
+
+    [data-blazor][data-blazor-duration="2450"][blazoranimate=aos-animate] {
+        transition-duration: 2450ms;
+    }
+
+[data-blazor][data-blazor-duration="2500"] {
+    transition-duration: 2500ms;
+}
+
+    [data-blazor][data-blazor-duration="2500"][blazoranimate=aos-animate] {
+        transition-duration: 2500ms;
+    }
+
+[data-blazor][data-blazor-duration="2550"] {
+    transition-duration: 2550ms;
+}
+
+    [data-blazor][data-blazor-duration="2550"][blazoranimate=aos-animate] {
+        transition-duration: 2550ms;
+    }
+
+[data-blazor][data-blazor-duration="2600"] {
+    transition-duration: 2600ms;
+}
+
+    [data-blazor][data-blazor-duration="2600"][blazoranimate=aos-animate] {
+        transition-duration: 2600ms;
+    }
+
+[data-blazor][data-blazor-duration="2650"] {
+    transition-duration: 2650ms;
+}
+
+    [data-blazor][data-blazor-duration="2650"][blazoranimate=aos-animate] {
+        transition-duration: 2650ms;
+    }
+
+[data-blazor][data-blazor-duration="2700"] {
+    transition-duration: 2700ms;
+}
+
+    [data-blazor][data-blazor-duration="2700"][blazoranimate=aos-animate] {
+        transition-duration: 2700ms;
+    }
+
+[data-blazor][data-blazor-duration="2750"] {
+    transition-duration: 2750ms;
+}
+
+    [data-blazor][data-blazor-duration="2750"][blazoranimate=aos-animate] {
+        transition-duration: 2750ms;
+    }
+
+[data-blazor][data-blazor-duration="2800"] {
+    transition-duration: 2800ms;
+}
+
+    [data-blazor][data-blazor-duration="2800"][blazoranimate=aos-animate] {
+        transition-duration: 2800ms;
+    }
+
+[data-blazor][data-blazor-duration="2850"] {
+    transition-duration: 2850ms;
+}
+
+    [data-blazor][data-blazor-duration="2850"][blazoranimate=aos-animate] {
+        transition-duration: 2850ms;
+    }
+
+[data-blazor][data-blazor-duration="2900"] {
+    transition-duration: 2900ms;
+}
+
+    [data-blazor][data-blazor-duration="2900"][blazoranimate=aos-animate] {
+        transition-duration: 2900ms;
+    }
+
+[data-blazor][data-blazor-duration="2950"] {
+    transition-duration: 2950ms;
+}
+
+    [data-blazor][data-blazor-duration="2950"][blazoranimate=aos-animate] {
+        transition-duration: 2950ms;
+    }
+
+[data-blazor][data-blazor-duration="3000"] {
+    transition-duration: 3000ms;
+}
+
+    [data-blazor][data-blazor-duration="3000"][blazoranimate=aos-animate] {
+        transition-duration: 3000ms;
+    }
+/*Generate Delay*/
+[data-blazor][data-blazor-delay="50"][blazoranimate=aos-animate] {
+    transition-delay: 50ms;
+}
+
+[data-blazor][data-blazor-delay="100"][blazoranimate=aos-animate] {
+    transition-delay: 100ms;
+}
+
+[data-blazor][data-blazor-delay="150"][blazoranimate=aos-animate] {
+    transition-delay: 150ms;
+}
+
+[data-blazor][data-blazor-delay="200"][blazoranimate=aos-animate] {
+    transition-delay: 200ms;
+}
+
+[data-blazor][data-blazor-delay="250"][blazoranimate=aos-animate] {
+    transition-delay: 250ms;
+}
+
+[data-blazor][data-blazor-delay="300"][blazoranimate=aos-animate] {
+    transition-delay: 300ms;
+}
+
+[data-blazor][data-blazor-delay="350"][blazoranimate=aos-animate] {
+    transition-delay: 350ms;
+}
+
+[data-blazor][data-blazor-delay="400"][blazoranimate=aos-animate] {
+    transition-delay: 400ms;
+}
+
+[data-blazor][data-blazor-delay="450"][blazoranimate=aos-animate] {
+    transition-delay: 450ms;
+}
+
+[data-blazor][data-blazor-delay="500"][blazoranimate=aos-animate] {
+    transition-delay: 500ms;
+}
+
+[data-blazor][data-blazor-delay="550"][blazoranimate=aos-animate] {
+    transition-delay: 550ms;
+}
+
+[data-blazor][data-blazor-delay="600"][blazoranimate=aos-animate] {
+    transition-delay: 600ms;
+}
+
+[data-blazor][data-blazor-delay="650"][blazoranimate=aos-animate] {
+    transition-delay: 650ms;
+}
+
+[data-blazor][data-blazor-delay="700"][blazoranimate=aos-animate] {
+    transition-delay: 700ms;
+}
+
+[data-blazor][data-blazor-delay="750"][blazoranimate=aos-animate] {
+    transition-delay: 750ms;
+}
+
+[data-blazor][data-blazor-delay="800"][blazoranimate=aos-animate] {
+    transition-delay: 800ms;
+}
+
+[data-blazor][data-blazor-delay="850"][blazoranimate=aos-animate] {
+    transition-delay: 850ms;
+}
+
+[data-blazor][data-blazor-delay="900"][blazoranimate=aos-animate] {
+    transition-delay: 900ms;
+}
+
+[data-blazor][data-blazor-delay="950"][blazoranimate=aos-animate] {
+    transition-delay: 950ms;
+}
+
+[data-blazor][data-blazor-delay="1000"][blazoranimate=aos-animate] {
+    transition-delay: 1000ms;
+}
+
+[data-blazor][data-blazor-delay="1050"][blazoranimate=aos-animate] {
+    transition-delay: 1050ms;
+}
+
+[data-blazor][data-blazor-delay="1100"][blazoranimate=aos-animate] {
+    transition-delay: 1100ms;
+}
+
+[data-blazor][data-blazor-delay="1150"][blazoranimate=aos-animate] {
+    transition-delay: 1150ms;
+}
+
+[data-blazor][data-blazor-delay="1200"][blazoranimate=aos-animate] {
+    transition-delay: 1200ms;
+}
+
+[data-blazor][data-blazor-delay="1250"][blazoranimate=aos-animate] {
+    transition-delay: 1250ms;
+}
+
+[data-blazor][data-blazor-delay="1300"][blazoranimate=aos-animate] {
+    transition-delay: 1300ms;
+}
+
+[data-blazor][data-blazor-delay="1350"][blazoranimate=aos-animate] {
+    transition-delay: 1350ms;
+}
+
+[data-blazor][data-blazor-delay="1400"][blazoranimate=aos-animate] {
+    transition-delay: 1400ms;
+}
+
+[data-blazor][data-blazor-delay="1450"][blazoranimate=aos-animate] {
+    transition-delay: 1450ms;
+}
+
+[data-blazor][data-blazor-delay="1500"][blazoranimate=aos-animate] {
+    transition-delay: 1500ms;
+}
+
+[data-blazor][data-blazor-delay="1550"][blazoranimate=aos-animate] {
+    transition-delay: 1550ms;
+}
+
+[data-blazor][data-blazor-delay="1600"][blazoranimate=aos-animate] {
+    transition-delay: 1600ms;
+}
+
+[data-blazor][data-blazor-delay="1650"][blazoranimate=aos-animate] {
+    transition-delay: 1650ms;
+}
+
+[data-blazor][data-blazor-delay="1700"][blazoranimate=aos-animate] {
+    transition-delay: 1700ms;
+}
+
+[data-blazor][data-blazor-delay="1750"][blazoranimate=aos-animate] {
+    transition-delay: 1750ms;
+}
+
+[data-blazor][data-blazor-delay="1800"][blazoranimate=aos-animate] {
+    transition-delay: 1800ms;
+}
+
+[data-blazor][data-blazor-delay="1850"][blazoranimate=aos-animate] {
+    transition-delay: 1850ms;
+}
+
+[data-blazor][data-blazor-delay="1900"][blazoranimate=aos-animate] {
+    transition-delay: 1900ms;
+}
+
+[data-blazor][data-blazor-delay="1950"][blazoranimate=aos-animate] {
+    transition-delay: 1950ms;
+}
+
+[data-blazor][data-blazor-delay="2000"][blazoranimate=aos-animate] {
+    transition-delay: 2000ms;
+}
+
+[data-blazor][data-blazor-delay="2050"][blazoranimate=aos-animate] {
+    transition-delay: 2050ms;
+}
+
+[data-blazor][data-blazor-delay="2100"][blazoranimate=aos-animate] {
+    transition-delay: 2100ms;
+}
+
+[data-blazor][data-blazor-delay="2150"][blazoranimate=aos-animate] {
+    transition-delay: 2150ms;
+}
+
+[data-blazor][data-blazor-delay="2200"][blazoranimate=aos-animate] {
+    transition-delay: 2200ms;
+}
+
+[data-blazor][data-blazor-delay="2250"][blazoranimate=aos-animate] {
+    transition-delay: 2250ms;
+}
+
+[data-blazor][data-blazor-delay="2300"][blazoranimate=aos-animate] {
+    transition-delay: 2300ms;
+}
+
+[data-blazor][data-blazor-delay="2350"][blazoranimate=aos-animate] {
+    transition-delay: 2350ms;
+}
+
+[data-blazor][data-blazor-delay="2400"][blazoranimate=aos-animate] {
+    transition-delay: 2400ms;
+}
+
+[data-blazor][data-blazor-delay="2450"][blazoranimate=aos-animate] {
+    transition-delay: 2450ms;
+}
+
+[data-blazor][data-blazor-delay="2500"][blazoranimate=aos-animate] {
+    transition-delay: 2500ms;
+}
+
+[data-blazor][data-blazor-delay="2550"][blazoranimate=aos-animate] {
+    transition-delay: 2550ms;
+}
+
+[data-blazor][data-blazor-delay="2600"][blazoranimate=aos-animate] {
+    transition-delay: 2600ms;
+}
+
+[data-blazor][data-blazor-delay="2650"][blazoranimate=aos-animate] {
+    transition-delay: 2650ms;
+}
+
+[data-blazor][data-blazor-delay="2700"][blazoranimate=aos-animate] {
+    transition-delay: 2700ms;
+}
+
+[data-blazor][data-blazor-delay="2750"][blazoranimate=aos-animate] {
+    transition-delay: 2750ms;
+}
+
+[data-blazor][data-blazor-delay="2800"][blazoranimate=aos-animate] {
+    transition-delay: 2800ms;
+}
+
+[data-blazor][data-blazor-delay="2850"][blazoranimate=aos-animate] {
+    transition-delay: 2850ms;
+}
+
+[data-blazor][data-blazor-delay="2900"][blazoranimate=aos-animate] {
+    transition-delay: 2900ms;
+}
+
+[data-blazor][data-blazor-delay="2950"][blazoranimate=aos-animate] {
+    transition-delay: 2950ms;
+}
+
+[data-blazor][data-blazor-delay="3000"][blazoranimate=aos-animate] {
+    transition-delay: 3000ms;
+}
+
+[data-blazor] {
+    pointer-events: none;
+}
+
+    [data-blazor][blazoranimate=aos-animate] {
+        pointer-events: auto;
+    }
