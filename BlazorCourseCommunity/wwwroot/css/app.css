@@ -3,7 +3,7 @@
 html, body {
     min-height: 100vh;
     background-color: #F2F2F2;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.7rem;
 }
 
@@ -12,19 +12,20 @@ body {
 }
 
 .loading-dot {
-    text-align: center;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
     width: 100%;
-    height: 100%;
-    margin-top: -50px;
-    position: fixed;
-    padding-top: 10%;
-    background: #F2F2F2;
+    background-color: #F2F2F2;
 }
+
     .loading-dot img {
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
         animation: Rotate 10s linear infinite;
     }
+
+
 
 @keyframes Rotate {
     100% {
@@ -33,19 +34,20 @@ body {
     }
 }
 
-.nav-blazor{
+.nav-blazor {
     background: rgb(173,37,37);
-    overflow:hidden;
-    color:white;
+    overflow: hidden;
+    color: white;
+    padding-right: 30px;
 }
 
-.nav-blazor .nav-hover:hover {
-    color: #fff !important;
-    background-color: #c82a2a !important
-}
+    .nav-blazor .nav-hover:hover {
+        color: #fff !important;
+        background-color: #c82a2a !important
+    }
 
-.nav-blazor p{
-  margin:0px;
+.menu-item {
+    display: block;
 }
 
 .nav-blazorm {
@@ -57,10 +59,6 @@ body {
         background-color: #c82a2a !important
     }
 
-#logo {
-    width: 12%;
-}
-
 p {
     margin-top: 0;
     margin-bottom: 2rem;
@@ -68,17 +66,24 @@ p {
 
 .title {
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: inline-block;
     margin-bottom: 2rem;
 }
 
-.title-audience {
-    color: black;
-    font-size: 2rem;
+
+.title-instructor, .title-audience, .titles-resources {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
 }
 
-.subtitle-span {
+.title-patrocinadopor {
+    display: block;
+    /*    margin-bottom:5px;*/
+}
+
+.title-blazor, .subtitle-span {
     color: rgb(197,21,21);
     font-size: 3rem;
 }
@@ -89,80 +94,89 @@ p {
 }
 
 
-#home, #modality, #resources, #audience {
-    margin-bottom: 60px;
-    padding-top: 100px;
-    padding-bottom: 20px;  
+#home, #modality, #resources, #audience, #resources {
+    padding-top: 120px;
+    padding-bottom: 50px;
 }
-#home {
-    padding-top: 13%;
+
+/*** Hack Component */
+.hack-block {
+    padding-top: 90px;
 }
-.home-section {
-    padding-top: 9%;
-    padding-bottom: 9%;
+
+.hack-block-comingsoon {
+    color: maroon;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
 }
-#modality {
-    padding-top: 13%;
-    padding-bottom: 9%;
+
+.hack-block-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
 }
-#audience {
-    padding-top: 13%;
-    padding-bottom: 9%;
+
+.hack-block-subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    color: #808080;
 }
-#resources {
-    padding-top: 14%;
-    padding-bottom: 9%;
+
+.hack-block-content {
+    margin-top: 15px;
+}
+
+.hack-block-footer {
+    margin-top: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.w3-maroon {
+    color: maroon;
 }
 
 
 
-
-#modality .title-span {
-    color: #831a24;
-    font-size: 3rem;
-}
-
-#resources .title-span {
-    color: #831a24;
-    font-size: 3rem;
-}
-
-#audience .title-span {
-    color: #831a24;
-    font-size: 3rem;
-}
-
+/* Sections text */
 .home-text {
-    font-size: 20px;
-    text-align: justify;
+    text-align: center;
 }
+
+.home-section-text {
+    text-align: left;
+}
+
 .modality-text {
-    font-size: 20px;
-    text-align: justify;
+    text-align: left;
 }
+
+    .modality-text p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+
 .audience-text {
-    font-size: 20px;
-    text-align: justify;
+    text-align: center;
 }
+
 .resource-text {
-    font-size: 20px;
-    text-align: justify;
-}
-
-#home .row, #modality {
-    min-height: 550px;
-}
-
-#resources {
-    min-height: 200px;
+    margin-top: 1.5rem;
+    text-align: center;
 }
 
 .footer {
-    background: rgb(173,37,37);
-    height: 10%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background: #801F1F;
+    margin-top: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+    .footer img {
+        margin-right: 5px;
+    }
 
 
 @keyframes Rotate {
@@ -177,99 +191,122 @@ a:link, a:visited, a:active {
 }
 
 
-.RobotNet{
-   max-height:100%;
-   width:85%;
-   height:85%;
-   padding-top:5%;
+/* Imagenes */
+.img-home {
+    margin-left: 40px;
 }
-.PeopleLaptot {
-    max-height: 100%;
-    padding-top: 5%;
-    width: 65%;
-    height: 65%;
-    margin-left:10%;
+
+.img-cloud {
+    margin-right: 40px;
+}
+
+.img-bot {
+    margin-left: 40px;
 }
 
 .img-video {
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
+    margin-right: 20px;
 }
 
-.img-resource{
-    max-height:100%;
-    width:100%;
-    height:100%;
-    padding-top:5%;
-}
-
-#ImgHome {
-    width: 90%;
-    height: 90%;
-    padding-left: 40px;
+.img-logoti {
+    margin-right: 20px;
 }
 
 
-@media only screen and (max-width: 600px) {
-    #main {
-        margin-left: 0
+/*****************************************/
+@media only screen and (max-width: 576px) {
+    .main {
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
+
+    .nav-blazor div, .nav-blazor a {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .menu-item {
+        display: none;
+    }
+
+    #modality, #resources, #audience, #resources, #hacks {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    #home {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
     .loading-dot {
-        padding-top: 35%;
+        position: absolute;
+        top: calc(50% - 125px);
+        left: calc(50% - 125px);
+        width: 100%;
+        background-color: #F2F2F2;
     }
-    .loading-dot img {
-        width: 350px;
-        height: 350px;
-    }
-    .title {
-        color: black;
+
+        .loading-dot img {
+            width: 250px;
+            height: 250px;
+            animation: Rotate 10s linear infinite;
+        }
+
+    /* Titulos */
+    .title-blazor {
+        line-height: 2rem;
         font-size: 2rem;
-        display: inline-block;
     }
 
     .subtitle-span {
-        font-size: 2.5rem;
-    }
-        .title span {
-            color: #831a24;
-            font-size: 3rem;
-        }
-
-    .RobotNet {
-        width: 78%;
-        height: 78%;
-        margin-top: 0px;
-        padding-bottom: 30px;
-        margin-left:0px;
-        padding-left:20%;
-    }
-    .PeopleLaptot {
-        padding-top: 30px;
-        width: 78%;
-        height: 78%;
-        margin-left: 0px;
-        padding-left: 29%;
-    } 
-    .img-resource {
-        max-height: 100%;
-        width: 10%;
-        height: 10%;
-        padding-top: 5%;
-        margin-left: 47%;
+        font-size: 2rem;
+        display: block;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
 
-    .img-video {
-        max-height: 100%;
-        width: 90%;
-        height: 90%;
-        padding-left:14%;
+    .subtitle {
+        margin-top: -20px;
+        font-size: 1rem;
     }
-    #ImgHome {
-        width: 80%;
-        height: 80%;
-        margin-top: 0px;
-        padding-left: 22%;
-        padding-bottom: 30px;
+    /***************/
+
+    /* Imagenes */
+    .img-home {
+        display: none;
     }
+
+    .img-cloud {
+        max-width: 250px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .img-bot {
+        max-width: 250px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .footer img {
+        max-width: 150px;
+    }
+    /***********************/
+
+    /*** Hack Component */
+    .hack-block {
+        padding-top: 50px;
+    }
+
+    .hack-block-comingsoon {
+        font-size: 1rem;
+    }
+
+    .hack-block-title {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    /*********************************/
 }

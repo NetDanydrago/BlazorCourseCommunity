@@ -1,41 +1,58 @@
 ﻿@inherits LayoutComponentBase
 @inject IJSRuntime JsRuntime
 
-        <div class="w3-top w3-large w3-large nav-blazor">
-            <div class="container">
-                @*<img src="images/DotNetPueblaRed.png" id="logo">*@
-                <!-- Float links to the right. Hide them on small screens -->
-                <div class="w3-right w3-hide-small w3-text-white">
-                    <span class="w3-bar-item w3-button nav-hover" @onclick="@(() => Show("home"))" style="cursor:pointer;">
-                        <i class="fa fa-home w3-xlarge"></i>
-                        <p>Inicio</p>
-                    </span>
-                    <span class="w3-bar-item w3-button  nav-hover" @onclick="@(() => Show("modality"))" style="cursor:pointer;">
-                        <i class="fa fa-book w3-xlarge"></i>
-                        <p>Modalidad</p>
-                    </span>
-                    <span class="w3-bar-item w3-button  nav-hover" @onclick="@(() => Show("audience"))" style="cursor:pointer;">
-                        <i class="fa fa-user w3-xlarge"></i>
-                        <p>Audiencia</p>
-                    </span>
-                    <span class="w3-bar-item w3-button  nav-hover" @onclick="@(() => Show("resources"))" style="cursor:pointer;">
-                        <i class="fa fa-envelope w3-xlarge"></i>
-                        <p>Recursos</p>
-                    </span>
-                </div>
-            </div>
-        </div>
-
-    <div class="w3-top w3-hide-large w3-hide-medium nav-blazorm" id="myNavbar">
-        <div class="w3-bar w3-blackmaroon  w3-center w3-small w3-text-white">
-            <span class="navToBookmark w3-bar-item w3-button nav-hover" @onclick="@(() => Show("home"))" style="width:20% !important;cursor:pointer;">Inicio</span>
-            <span class="navToBookmark w3-bar-item w3-button nav-hover" @onclick="@(() => Show("modality"))" style="width:30% !important;cursor:pointer;">Modalidad</span>
-            <span class="navToBookmark w3-bar-item w3-button nav-hover" @onclick="@(() => Show("audience"))" style="width:25% !important;cursor:pointer;">Audiencia</span>
-            <span class="navToBookmark w3-bar-item w3-button nav-hover"  @onclick="@(() => Show("resources"))"style="width:25% !important;cursor:pointer;">Recursos</span>
+<div class="w3-top  nav-blazor">
+    <div class="container-fluid">
+        @*<img src="images/DotNetPueblaRed.png" id="logo">*@
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right  w3-text-white">
+            <span class="w3-bar-item w3-button nav-hover text-center" @onclick="@(() => Show("home"))" style="cursor:pointer;">
+                <i class="fa fa-home w3-xlarge"></i>
+                <span class="menu-item">Inicio</span>
+            </span>
+            <span class="w3-bar-item w3-button  nav-hover text-center" @onclick="@(() => Show("modality"))" style="cursor:pointer;">
+                <i class="fa fa-book w3-xlarge"></i>
+                <span class="menu-item">Modalidad</span>
+            </span>
+            <span class="w3-bar-item w3-button  nav-hover text-center" @onclick="@(() => Show("audience"))" style="cursor:pointer;">
+                <i class="fa fa-user w3-xlarge"></i>
+                <span class="menu-item">Audiencia</span>
+            </span>
+            <span class="w3-bar-item w3-button  nav-hover text-center" @onclick="@(() => Show("resources"))" style="cursor:pointer;">
+                <i class="fa fa-envelope w3-xlarge"></i>
+                <span class="menu-item">Recursos</span>
+            </span>
         </div>
     </div>
-        @Body
+</div>
 
+
+
+
+
+
+
+<div class="main">
+    @Body
+</div>
+
+
+<div class="container-fluid text-center w3-text-white footer">
+
+    <span class="title-patrocinadopor">Patrocinado por:</span><br>
+    <div class="row align-items-center">
+        <div class="col text-right">
+            <Div BlazorAOS="fade-down-right" Animate="true">
+                <a href="http://dotnetpuebla.com" target="_blank"><img src="images/DotNetPueblaRed.png"></a>
+            </Div>
+        </div>
+        <div class="col text-left">
+            <Div BlazorAOS="fade-down-left" Animate="true">
+                <a href="https://ticapacitacion.com" target="_blank"><img src="images/ti85x85.png"></a>
+            </Div>
+        </div>
+    </div>
+</div>
 
 
 @code{

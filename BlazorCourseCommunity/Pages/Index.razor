@@ -2,13 +2,13 @@
 @inject IJSRuntime JsRuntime
 <div class="container" id="home">
     <div class="row align-items-center">
-        <div class="col-sm-8 col-lg-6">
+        <div class="col-sm">
             <Div BlazorAOS="slide-right" Animate="true">
                 <h1 class="title">
                     <b>Entrenamiento gratuito en línea</b>
                 </h1>
                 <p>
-                    <span class="subtitle-span"><b>Blazor WebAssembly</b></span>
+                    <span class="title-blazor"><b>Blazor WebAssembly</b></span>
                 </p>
                 <p class="subtitle">
                     <span><i><b>Edición de Comunidad</b></i></span>
@@ -16,64 +16,62 @@
             </Div>
             <Div BlazorAOS="zoom-in" ClassName="home-text" Animate="true">
                 <p>
-                    En este entrenamiento desarrollaremos una aplicación <b>Blazor WebAssembly</b> completa,
-                    desde la creación de la solución utilizando la plantilla <b>Blazor WebAssembly</b> con
-                    Visual Studio 2019 hasta la publicación de esta en Microsoft Azure.
-                </p>
-            </Div>
-        </div>
-        <Div BlazorAOS="fade-down-left" Animate="true" ClassName="col-sm-4 col-lg-6">
-            <img id="ImgHome" class="img-fluid" src="/images/blazorDevRedP.png" />
-        </Div>
-    </div>
-</div>
-<div class="container home-section">
-    <div class="row align-items-center">
-        <div class="col-sm-8 col-lg-6">
-            <Div BlazorAOS="slide-right" ClassName="home-text" Animate="true">
-                <p>
                     Aprende a desarrollar aplicaciones web interactivas del lado del
-                    cliente utilizando <b style="color:rgb(197,21,21)">HTML+CSS+C#</b> con Blazor WebAssembly.
+                    cliente utilizando <b style="color:rgb(197,21,21)"><i>HTML + CSS + C#</i></b> con <b><i>Blazor WebAssembly con .NET 5</i></b>.
                 </p>
             </Div>
-            <Div BlazorAOS="zoom-in" ClassName="home-text" Animate="true">
+            <Div ClassName="home-text" BlazorAOS="slide-right" Animate="true">
                 <p>
-                    <b>Instructor:</b><br />
-                    Miguel Muñoz Serafín <br />
-                    Microsoft MVP - Developer Technologies <br />
-                    <a href="https://mvp.microsoft.com/es-es/PublicProfile/21053">
-                        <u>https://mvp.microsoft.com/es-es/PublicProfile/21053</u>
-                    </a>
+                    En este entrenamiento desarrollaremos una aplicación web <b><i>SPA</i></b> con funcionalidad <b><i>PWA</i></b>,
+                    desde la creación de la solución utilizando la plantilla <i>Blazor WebAssembly</i> con
+                    <i>Visual Studio 2019</i> hasta la publicación de esta en <b><i>Microsoft Azure</i></b>.
+                </p>
+                <p>Incorporaremos autenticación y autorización de usuarios utilizando <b><i>OpenID Connect</i></b>.</p>
+            </Div>
+            <Div ClassName="home-section-text" BlazorAOS="zoom-in" Animate="true">
+                <p>
+                    <span class="title-instructor">Instructor</span>
+                    <a href="https://mvp.microsoft.com/es-es/PublicProfile/21053" target="_blank">
+                        Miguel Muñoz Serafín&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a><br>
+                    Microsoft MVP - Developer Technologies&nbsp;<br>
                 </p>
             </Div>
         </div>
-        <Div BlazorAOS="zoom-in" ClassName="col-sm-4 col-lg-6">
-            <img id="ImgHome" class="img-fluid" src="/images/Nube.png" />
+        <Div ClassName="col-sm" BlazorAOS="fade-down-left" Animate="true">
+            <img class="img-home img-fluid" src="images/blazorDevRedP450.png">
         </Div>
     </div>
 </div>
 <div class="container" id="modality">
     <Div BlazorAOS="slide-left" Animate="true">
-        <div style="text-align:center">
+        <div class="text-center">
             <span class="subtitle-span"><b>Modalidad</b></span>
         </div>
     </Div>
     <div class="row align-items-center">
-        <div class="col-sm-4 col-lg-5 ">
-            <Div BlazorAOS="zoom-in-left">
-                <img class="RobotNet" src="/images/DotNetBotRed.png" />
+        <div class="col-sm text-center">
+            <Div BlazorAOS="zoom-in-left" Animate="true">
+                <img class="img-cloud img-fluid" src="images/Cloud450.png">
             </Div>
         </div>
-        <div class="col-sm-8 col-lg-6 modality-text">
-            <Div BlazorAOS="zoom-in">
+        <div class="col-sm modality-text">
+            <Div BlazorAOS="zoom-in" Animate="true">
                 <p>
-                    Sesiones semanales en vivo los viernes y sábados a través de Microsoft Teams.
+                    Sesiones semanales en vivo los <b><i>viernes</i></b> a través de <b><i>Microsoft Teams</i></b>.
                 </p>
                 <p>
-                    <b>Horario:</b> 20 a 23 horas tiempo de la ciudad de México.
+                    <b>Fecha de inicio:</b><br> 4 de junio de 2021
+                </p>
+                <!--!--><p>
+                    <b>Horario:</b><br>19 a 22 horas tiempo de la ciudad de México.
                 </p>
                 <p>
-                    <b>Enlace de la reunión:</b> Accede a las reuniones <a href="https://bit.ly/2ObeWej"><u>AQUÍ.</u></a>
+                    Registrate <a href="https://forms.office.com/r/UmsS24QQj8" target="_blank"><u><b>AQUÍ</b></u></a> para unirte al equipo en Microsoft Teams.
+                </p>
+                <!--!--><p>
+                    <b>Enlace de la reunión:</b> <br>
+                    Después de registrarte accede a las reuniones&nbsp;<a href="https://bit.ly/3wZjgSj" target="_blank"><u><b>AQUÍ</b></u></a>.
                 </p>
             </Div>
         </div>
@@ -85,30 +83,30 @@
             <span class="subtitle-span"><b>Audiencia</b></span>
         </div>
     </Div>
-    <div class="row align-items-center audience-text" style="padding-top:5%;">
-        <div class="col-sm-8 col-lg-7">
-            <Div BlazorAOS="zoom-in">
-                <p>
-                    Dirigido a personas con conocimientos básicos de HTML, CSS y C#
-                    que deseen conocer la forma de desarrollar aplicaciones web SPA y 
-                    PWA utilizando Blazor WebAssembly.  
+    <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6">
+            <Div BlazorAOS="zoom-in" Animate="true">
+                <p class="text-center">
+                    Este entrenamiento está dirigido a personas&nbsp;con conocimientos básicos de&nbsp;HTML, CSS y C#
+                    que deseen conocer la forma de desarrollar aplicaciones web&nbsp;<i>SPA</i>&nbsp;y&nbsp;
+                    <i>PWA</i>&nbsp;utilizando&nbsp;<i>Blazor WebAssembly</i>.&nbsp;&nbsp;
                 </p>
-                <h5 class="title-audience">Requisitos:</h5>
-                <p>
-                    <ul>
-                        <li>
-                            Visual Studio 2019 16.6 con la carga de trabajo ASP.NET and web development.
-                        </li>
-                        <li>
-                            NET Core SDK 3.1.300 o posteriores.
-                        </li>
-                    </ul>
-                </p>
+                <span class="title-audience">Requisitos</span>
+                <p class="text-left">
+                </p><ul>
+                    <li>
+                        Visual Studio 2019 16.10 o posteriores con la carga de trabajo <b><i>ASP.NET and web development</i></b>.
+                    </li>
+                    <li>
+                        .NET 5.0 SDK (v5.0.300) o posteriores.
+                    </li>
+                </ul>
+                <p></p>
             </Div>
         </div>
-        <div class="col-sm-4 col-lg-5">
-            <Div BlazorAOS="fade-down-left">
-                <img class="PeopleLaptot" src="images/blazorDev.png" />
+        <div class="col-sm-12 col-md-6 order-first order-sm-last text-center">
+            <Div BlazorAOS="fade-down-left" Animate="true">
+                <img class="img-bot img-fluid" src="images/DotNetBotRed450.png">
             </Div>
         </div>
     </div>
@@ -119,61 +117,90 @@
             <span class="subtitle-span"><b>Recursos</b></span>
         </div>
     </Div>
-    <div class="row align-items-center resource-text" style="padding-top:5%;">
-        <div class="col-sm-4 col-lg-4">
-            <Div BlazorAOS="fade-down-left">
-                <img class="img-video" src="images/Video1s.png" />
+    <div class="row align-items-center resource-text">
+        <div class="col-sm-4 col-lg-4 text-right">
+            <Div BlazorAOS="fade-down-left" Animate="true">
+                <img class="img-video" src="images/YouTube100.png">
             </Div>
         </div>
-        <div class="col-sm-8 col-lg-8">
-            <Div BlazorAOS="zoom-in">
-                <h4><b>Sesiones grabadas</b></h4>
-                Puedes encontrar <a href="https://www.youtube.com/playlist?list=PLsi0_y2gnnl5v_1bOfXpr8xU5c7-HJqCn"><u>AQUÍ</u></a>
-                la lista de YouTube con las sesiones grabadas.
-            </Div>
-        </div>
-    </div>
-    <div class="row align-items-center resource-text" style="padding-top:5%;">
-        <div class="col-sm-1 col-lg-1">
-            <Div BlazorAOS="fade-down-left">
-                <img class="img-resource" src="images/FB.png" />
-            </Div>
-        </div>
-        <div class="col-sm-11 col-lg-11">
-            <Div BlazorAOS="zoom-in">
-                <h4><b>Grupo de apoyo en Facebook</b></h4>
-                Únete al <a href="https://www.facebook.com/groups/blazordiplomado"><u>Grupo de Facebook</u></a> para interactuar con otros participantes y recibir notificaciones del entrenamiento. 
+        <div class="col-sm-8 col-lg-8 text-left">
+            <Div BlazorAOS="zoom-in" Animate="true">
+                <span class="titles-resources">Sesiones grabadas</span>
+                Puedes encontrar&nbsp;<!--!--><a href="https://youtube.com/playlist?list=PLsi0_y2gnnl7m3AbRssOFcL_mCTJLLQLz" target="_blank"><u>AQUÍ</u></a>
+                la lista de&nbsp;las sesiones&nbsp;grabadas.
             </Div>
         </div>
     </div>
-    <div class="row align-items-center resource-text" style="padding-top:25%;">
-        <div class="col-sm-8 col-lg-12">
-            <Div BlazorAOS="zoom-in">
-                <h4><b>Recursos adicionales</b></h4>
-                <p>
-                    Los siguientes son algunos de los recursos gratuitos o con costo disponibles que
-                    te pueden ayudar a seguir aprendiendo sobre Blazor. 
-                </p>
-                <p>
-                    <ul>
-                        <li>
-                            Manual de estudiante. Puedes adquirir el manual de estudiante disponible en <a href="https://www.amazon.com/dp/B083XTGG5Y/"><u>Amazon.</u></a>
-                        </li>
-                        <li>
-                            Blazor WebAssembly Diplomado. Esta es la versión con costo del entrenamiento Blazor WebAssembly
-                            que incluye videos y el manual de estudiante en formato PDF. 
-                        </li>
-                    </ul>
-                </p>
+    <div class="row align-items-center resource-text">
+        <div class="col-sm-4 col-lg-4 text-right">
+            <Div BlazorAOS="fade-down-left" Animate="true">
+                <img class="img-video" src="images/Facebook130.png">
+            </Div>
+        </div>
+        <div class="col-sm-8 col-lg-8 text-left">
+            <Div BlazorAOS="zoom-in" Animate="true">
+                <span class="titles-resources">Grupo de apoyo en Facebook</span>
+                Únete al&nbsp;<!--!--><a href="https://www.facebook.com/groups/blazordiplomado" target="_blank">
+                    <u>Grupo de Facebook</u>
+                </a> para&nbsp;interactuar con otros participantes y&nbsp;recibir notificaciones del entrenamiento.&nbsp;
             </Div>
         </div>
     </div>
-</div>
-<div class="row">
-    <div class="col text-center text-white footer">
-        <b>Patrocinadores:</b>
-        <a href="http://dotnetpuebla.com"><u>Comunidad de desarrolladores Puebla.NET</u></a> -
-        <a href="https://ticapacitacion.com"><u>TI Capacitación</u></a>
+    <div class="row align-items-center resource-text">
+        <div class="col-sm-4 col-lg-4 text-right">
+            <Div BlazorAOS="fade-down-left" Animate="true">
+               <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="hosted_button_id" value="ZJQ8J5JLGAKG6">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
+                    <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </Div>
+        </div>
+        <div class="col-sm-8 col-lg-8 text-left">
+            <Div BlazorAOS="zoom-in" Animate="true">
+                <span class="titles-resources">¿Deseas apoyar a la comunidad?</span>
+                Ahora puedes apoyar para seguir generando contenido gratuito para la comunidad de desarrolladores.&nbsp;
+            </Div>
+        </div>
+    </div>
+    <div class="row align-items-center resource-text">
+        <div class="col text-left">
+            <Div BlazorAOS="zoom-in" Animate="true">
+                <span class="titles-resources">Recursos adicionales</span>
+                Los siguientes son algunos de los recursos gratuitos o con costo disponibles que te pueden ayudar a seguir aprendiendo <!--!--><b><i>Blazor</i></b>.
+            </Div>
+        </div>
+    </div>
+    <div class="row align-items-center resource-text">
+        <div class="col-sm-4 col-lg-4 text-right">
+           <Div BlazorAOS="fade-down-left" Animate="true">
+                <img class="img-video" src="images/Amazon100.png">
+            </Div>
+        </div>
+        <div class="col-sm-8 col-lg-8 text-left">
+            <Div BlazorAOS="zoom-in" Animate="true">
+                <span class="titles-resources">Manual de estudiante</span>
+                Puedes adquirir el manual de estudiante disponible&nbsp;en&nbsp;
+                <a href="https://www.amazon.com/dp/B096TRTXCK/" target="_blank"><u>Amazon.</u></a>
+            </Div>
+        </div>
+    </div>
+    <div class="row align-items-center resource-text">
+        <div class="col-sm-4 col-lg-4 text-right">
+            <Div BlazorAOS="fade-down-left" Animate="true">
+                <img class="img-logoti" src="images/Logo57x59.png">
+            </Div>
+        </div>
+        <div class="col-sm-8 col-lg-8 text-left">
+               <Div BlazorAOS="zoom-in" Animate="true">
+                <span class="titles-resources">Blazor WebAssembly</span>
+                Esta es la versión con costo del <!--!--><a href="https://ticapacitacion.com/catalog/blazorw5" target="_blank">
+                    <u>Entrenamiento <i>Blazor WebAssembly</i></u>
+                </a>
+                en formato PDF.&nbsp;
+                <p>Solicita informes sobre la beca de apoyo especial como participante del entrenamiento escribiendo a informes@ticapacitacion.com.</p>
+              </Div>
+        </div>
     </div>
 </div>
 
